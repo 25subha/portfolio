@@ -1,0 +1,7 @@
+.layer {
+    transition: height 0.5s;
+}
+
+.work:hover .layer {
+    height: 100%;
+}
