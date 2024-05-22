@@ -11,7 +11,7 @@ function App() {
  
 
   return (
-    <div className=" bg-black text-white relative	">
+    <div className=" bg-black text-white	">
       <Navber />
       
       <main className="mx-20">

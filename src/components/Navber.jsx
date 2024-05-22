@@ -36,7 +36,7 @@ const navItems = [
 ];
 
   return (
-<div className='max-w-screen-2xl container mx-auto px-4 md:px-20 h-12  bg-[#1d5368] '>
+    <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 h-12  fixed left-0 top-0 right-0 bg-[#1d5368] '>
       {/*   desktop Navber  */}
         <div className='flex justify-between items-center  text-white h-12 '>
         <Link
@@ -88,7 +88,6 @@ const navItems = [
           )}
         
     </div>
-
   )
 };
 
