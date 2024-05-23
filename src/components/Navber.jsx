@@ -45,7 +45,7 @@ const navItems = [
             <ul className=' hidden md:flex  gap-12 justify-between ml-[600px] flex-wrap cursor-pointer '>
                 {
                   navItems.map(({id, page}) => (
-                      <li className='hover:scale-105 duration-200 cursor-pointer hover:bg-[#4582a5] p-2 rounded-md' key={id}>
+                      <li className='hover:scale-105 duration-200 cursor-pointer hover:bg-[#4582a5] p-2 rounded-md list-none' key={id}>
                         <Link
                       to={page} 
                       smooth={true}
