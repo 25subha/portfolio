@@ -33,6 +33,7 @@ const navItems = [
     id: 5,
     page: "Contact",
   },
+  
 ];
 
   return (
@@ -41,7 +42,7 @@ const navItems = [
         <div className='flex justify-between items-center  text-white h-12 '>
         <Link
              to='Home'>
-            <h1 className='text-[32px] text-xl font-bold text-[rgb(84,233,253)] cursor-pointer p-1.5 rounded-md hover:bg-[#4582a5]  transition-transform duration-[0.5s] hover:transform hover:scale-[1.1] shadow'><span className='text-[#4bfa63]'>S</span>ubhankar</h1> </Link>
+            <h1 className='text-[35px] font-serif	 text-xl font-[600] text-[rgb(84,233,253)] cursor-pointer p-1.5 rounded-md hover:bg-[#4582a5]  transition-transform duration-[0.5s] hover:transform hover:scale-[1.1] shadow'><span className='text-[#4bfa63] text-[36px]'>S</span >ubhankar</h1> </Link>
             <ul className=' hidden md:flex  gap-12 justify-between ml-[600px] flex-wrap cursor-pointer '>
                 {
                   navItems.map(({id, page}) => (

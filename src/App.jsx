@@ -6,15 +6,23 @@ import Skills from "./pages/Skills";
 import Project from "./pages/Project";
 import Contact from "./components/ContactApi";
 import toast, { Toaster } from 'react-hot-toast';
+import Navbar from "./components/Navbar";
 
 function App() {
  
 
   return (
-    <div className=" bg-black text-white	">
-      <Navber />
+    <div className=" bg-black text-white	h-full w-full">
+        
+     <Navbar/>
+     
       
-      <main className="mx-20">
+
+
+
+      {/* <Navber /> */}
+     
+      <main className="mx-28">
         {/* <Routes>
           <Route path="/Home" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -27,9 +35,12 @@ function App() {
           <Skills/>
           <Project/>
           <Contact/>
+
+          
       </main>
       <Toaster />
     </div>
+    
   )
 }
 
