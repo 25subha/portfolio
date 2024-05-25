@@ -13,7 +13,7 @@ const Project = () => {
     <div  name='Project' className='py-20 flex flex-col items-center '>
       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>My Project</h1>
       <div className='h-1 w-28 bg-green-500'></div>
-      <div className='flex  flex-wrap gap-20  mt-16'>
+      <div className='flex  flex-wrap gap-20 mt-16'>
       <div>
         <ProjectCard 
         imgurl={sisyphus}
