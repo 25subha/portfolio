@@ -26,7 +26,7 @@ const About = () => {
           <ul className='flex flex-row gap-10 m-0 p-0 list-none'>
             {tabs.map((tabsitem,ind) => {
                 return(
-                  <li className=''><button onClick={() => changeData(ind)} className={activetabs === ind ? ' px-2  text-white bg-green-500 hover:bg-[#44a176]': "px-1  bg-gray-600"}>{tabsitem.title}</button></li>
+                  <li className=''><button onClick={() => changeData(ind)} className={activetabs === ind ? ' px-2 py-1 rounded-sm text-white bg-green-500 hover:bg-[#44a176] font-[500]': "font-[500] px-2 py-1 bg-gray-200 text-black rounded-sm"}>{tabsitem.title}</button></li>
                 )
             })}
           </ul>  

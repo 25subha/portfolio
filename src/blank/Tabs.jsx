@@ -6,13 +6,13 @@ export let tabs = [
       },
       {
         id: 1,
-        title: "exprience",
+        title: "Exprience",
         year:'2022 - Present',
         description: "2 year exprience of logistic operation "
       },
       {
         id: 1,
-        title: "education",
+        title: "Education",
         Byear:2021,
         Bdescription: "B.A from VIDYASAGAR UNIVERSITY ",
         hyear:2018,
