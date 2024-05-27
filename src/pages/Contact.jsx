@@ -3,7 +3,7 @@ import ContactApi from '../components/ContactApi'
 
 const Contact = () => {
   return (
-    <div  >
+    <div className='' >
         <ContactApi/>
     </div>
   )

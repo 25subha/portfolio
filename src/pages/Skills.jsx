@@ -61,11 +61,13 @@ const Skills = () => {
   ];
   return (
    <div>
-    <div  name='Skills' className='flex flex-col items-center'>
-      <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>My skills</h1>
-      <div className='h-1 w-20 bg-green-500'></div>
+    <div  name='Skills' className=''>
+    <div className='flex flex-col items-center'>
+       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>My skills</h1>
+      <div className='h-1 w-24 bg-green-500'></div>
     </div>
-    <div className='flex flex-wrap mt-4 '>
+    </div>
+    <div className='max-w-[1200px] grid md:grid-cols-4 grid-cols-2 gap-8  md:mx-auto'>
       
       {
         cardItem.map(({id,logo,name})=> {

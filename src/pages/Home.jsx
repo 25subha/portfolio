@@ -5,7 +5,7 @@ import subhankarone from '../../public/subha.png';
  
 const Home = () => {
   return (
-    <div name='Home' className=''>
+    <div name='Home' className='mx-24'>
       <div className='py-[150px] md:flex  justify-between '>
         <div className='my-12'>
           <h1 className='font-[500] md:text-[35px]'>hello, <br /> I am <span className='text-green-600'>Subhankar</span> </h1>

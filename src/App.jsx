@@ -15,6 +15,12 @@ function App() {
     <div className=" bg-black text-white	h-full w-full">
         
      <Navbar/>
+     <Home/>
+      <About/>
+      <Skills/>
+      <Project/>
+      <Contact/>
+
      
       
 
@@ -22,7 +28,7 @@ function App() {
 
       {/* <Navber /> */}
      
-      <main className="mx-28">
+      <main className="">
         {/* <Routes>
           <Route path="/Home" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -30,12 +36,7 @@ function App() {
           <Route path="/project" element={<Project />}/>
           <Route path="/contact" element={<Contact />}/>
         </Routes> */}
-            <Home/>
-          <About/>
-          <Skills/>
-          <Project/>
-          <Contact/>
-
+      
           
       </main>
       <Toaster />

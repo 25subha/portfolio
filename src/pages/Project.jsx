@@ -17,30 +17,30 @@ const Project = () => {
       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>My Project</h1>
       <div className='h-1 w-28 bg-green-500 text-center'></div>
       </div>
-      <div className='grid grid-cols-auto gap-20'>
+      <div className='max-w-[1200px] grid md:grid-cols-4 gap-8 mx-auto'>
       <div>
         <ProjectCard 
         imgurl={sisyphus}
-        projectnumber={"project one "}
+        projectnumber={"project  "}
         link={'https://github.com/25subha/sisyphus-copy-project-using-html-or-css'}/>
      </div>
       <div>
         <ProjectCard 
         imgurl={todolist}
-        projectnumber={"project two"}
+        projectnumber={"project "}
         
         link={'https://github.com/25subha/first-project-todo-list'}/>
       </div>
       <div>
         <ProjectCard 
         imgurl={shoppingSight}
-        projectnumber={"project three"}
+        projectnumber={"project "}
         link={"https://github.com/25subha/shopping-sight"}/>
       </div>
       <div>
         <ProjectCard 
         imgurl={randomImg}
-        projectnumber={"project four"}
+        projectnumber={"project "}
         link={"https://github.com/25subha/rendom-image"}
         />
         
