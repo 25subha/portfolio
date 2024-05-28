@@ -32,11 +32,11 @@ const Navbar = () => {
 
   let [open, setOpen] = useState(false);
   return (
-    <nav className='shadow-md w-full fixed top-0 left-0 z-20	'>
-      <div className='md:flex bg-[#11293d] items-center justify-between  py-4 md:px-24 px-7'>
+    <nav className='shadow-md max-w-screen-2xl container fixed top-0 left-0 z-20	'>
+      <div className='md:flex bg-[#11293d] items-center justify-between  py-4 md:px-20 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[poppins] '>
         <Link to='Home' smooth="true" duration="500" >
-        <h1 className='md:text-4xl text-3xl	text-green-500 cursor-pointer p-1  hover:text-[#6ce6fc] transition duration-500 '>S<span className='hover:text-[#59dd9b] transition duration-500 md:text-2xl	text-xl text-[aqua]	'>ubhankar</span></h1> 
+        <h1 className='md:text-4xl text-3xl	text-green-500 cursor-pointer p-1 font-[signature] hover:text-[#6ce6fc] transition duration-500 '>S<span className='hover:text-[#59dd9b] transition duration-500 md:text-2xl	text-xl text-[aqua]	'>ubhankar</span></h1> 
         </Link>
         </div>
         <div className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => {setOpen(!open)}}>

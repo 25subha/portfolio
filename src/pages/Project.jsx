@@ -12,12 +12,12 @@ import randomImg from '../../public/rendom.png';
 const Project = () => {
  
   return (
-    <div  name='Project' className='  md:mx-24 mx-10'>
+    <div  name='Project' className='max-w-screen-2xl container mx-auto  md:px-20 px-12'>
       <div className='flex flex-col items-center my-20'>
       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>My Project</h1>
       <div className='h-1 w-28 bg-green-500 text-center'></div>
       </div>
-      <div className='max-w-[1200px] grid md:grid-cols-4 grid-cols-2 md:gap-8  '>
+      <div className=' grid grid-cols-1 md:grid-cols-4 gap-7 '>
       <div>
         <ProjectCard 
         imgurl={sisyphus}

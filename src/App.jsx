@@ -7,38 +7,24 @@ import Project from "./pages/Project";
 import Contact from "./components/ContactApi";
 import toast, { Toaster } from 'react-hot-toast';
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
  
 
   return (
-    <div className=" bg-black text-white	h-full w-full">
-        
+    <div className=" bg-black text-white	h-full w-full font-[poppins] capitalize">
+    <div>
+          
      <Navbar/>
      <Home/>
       <About/>
       <Skills/>
       <Project/>
       <Contact/>
+      <Footer/>
+    </div>
 
-     
-      
-
-
-
-      {/* <Navber /> */}
-     
-      <main className="">
-        {/* <Routes>
-          <Route path="/Home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />}/>
-          <Route path="/project" element={<Project />}/>
-          <Route path="/contact" element={<Contact />}/>
-        </Routes> */}
-      
-          
-      </main>
       <Toaster />
     </div>
     

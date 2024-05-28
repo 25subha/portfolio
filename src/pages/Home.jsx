@@ -5,10 +5,10 @@ import subhankarone from '../../public/subha.png';
  
 const Home = () => {
   return (
-    <div name='Home' className='mx-24'>
+    <div name='Home' className='max-w-screen-2xl container mx-auto px-4 md:px-20'>
       <div className='py-[150px] md:flex  justify-between '>
         <div className='my-12'>
-          <h1 className='font-[500] md:text-[35px]'>hello, <br /> I am <span className='text-green-600'>Subhankar</span> </h1>
+          <h1 className='font-[500] md:text-[35px]'>Hello, <br /> I am <span className='text-green-600'>Subhankar</span> </h1>
           <h2 className='font[500] md:text-[25px]'>And, I am <span> </span>
           <ReactTyped 
           className='font[500] md:text-[25px] text-green-600'

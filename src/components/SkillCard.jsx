@@ -4,8 +4,8 @@ import React from 'react';
 const SkillCard = ({logo,name}) => {
   return (
     <div>
-       <div className='md:w-[170px] md:h-[180px]  mt-12 md:ml-[70px]  rounded-lg shadow-green-500 shadow-md hover:scale-105 duration-300'>
-       <div className='md:flex flex-col items-center justify-center'>
+       <div className='flex flex-col items-center justify-center md:w-[170px] md:h-[180px]  mt-12  rounded-lg shadow-green-500 shadow-md hover:scale-105 duration-300'>
+       <div className=''>
             <img src={logo} className='h-[120px] w-[120px] mt-5 rounded-lg bg-white' alt="" />
 
         </div>

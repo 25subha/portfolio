@@ -60,12 +60,12 @@ const Skills = () => {
    
   ];
   return (
-   <div>
+   <div className=' max-w-screen-2xl container mx-auto px-4 md:px-20 '>
     <div  name='Skills' className='flex flex-col items-center'>
       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>My skills</h1>
       <div className='h-1 w-20 bg-green-500'></div>
     </div>
-    <div className='flex flex-wrap mt-4 '>
+    <div className='grid grid-cols-2 md:grid-cols-5 gap-7 my-3 '>
       
       {
         cardItem.map(({id,logo,name})=> {

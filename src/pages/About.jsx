@@ -10,10 +10,12 @@ const About = () => {
     setActivecontent(tabs[ind])
   }
   return (
-    <div  name='About' className='mb-16 py-4 flex flex-col items-center' >
-      <h1 className='font-[500] text-[30px] text-center '> About Me</h1>
+    <div  name='About' className=' max-w-screen-2xl container mx-auto px-4 md:px-20 ' >
+      <div  name='Skills' className='flex flex-col items-center'>
+      <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>About Me</h1>
       <div className='h-1 w-24 bg-green-500'></div>
-      <div className=' flex mt-12 justify-between items-top flex-wrap mx-20 '>
+    </div>
+      <div className=' flex mt-12 justify-between items-top flex-wrap '>
         
       <div className='md:basis-[35%] basis-full p-4'>
         <img src={subhankar} className='md:h-[250px] md:w-[210px]  m-4 rounded-md block  transition-transform duration-[0.5s] hover:transform hover:scale-[1.05]  ' alt="" />
@@ -26,7 +28,7 @@ const About = () => {
           <ul className='flex flex-row gap-10 m-0 p-0 list-none'>
             {tabs.map((tabsitem,ind) => {
                 return(
-                  <li className='p-4'><button onClick={() => changeData(ind)} className={activetabs === ind ? ' px-2 py-1 rounded-sm text-white bg-green-500 hover:bg-[#44a176] font-[500]': "font-[500] px-2 py-1 bg-gray-200 text-black rounded-sm"}>{tabsitem.title}</button></li>
+                  <li className='p-'><button onClick={() => changeData(ind)} className={activetabs === ind ? ' px-2 py-1 rounded-sm text-white bg-green-500 hover:bg-[#44a176] font-[500]': "font-[500] px-2 py-1 bg-gray-200 text-black rounded-sm"}>{tabsitem.title}</button></li>
                 )
             })}
           </ul>  
