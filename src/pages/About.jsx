@@ -10,22 +10,22 @@ const About = () => {
     setActivecontent(tabs[ind])
   }
   return (
-    <div  name='About' className=' max-w-screen-2xl container mx-auto px-4 md:px-20 ' >
+    <div  name='About' className=' max-w-screen-2xl container mx-auto px-4 md:px-20  ' >
       <div  name='Skills' className='flex flex-col items-center'>
       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>About Me</h1>
       <div className='h-1 w-24 bg-green-500'></div>
     </div>
-      <div className=' flex mt-12 justify-between items-top flex-wrap '>
+      <div className=' flex mt-12 justify-between items-center flex-wrap '>
         
       <div className='md:basis-[35%] basis-full p-4'>
-        <img src={subhankar} className='md:h-[250px] md:w-[210px]  m-4 rounded-md block  transition-transform duration-[0.5s] hover:transform hover:scale-[1.05]  ' alt="" />
+        <img src={subhankar} className='  h-[290px] w-[260px] md:h-[250px] md:w-[210px]   m-auto rounded-md block  transition-transform duration-[0.5s] hover:transform hover:scale-[1.05] ' alt="" />
       </div>
       <div className=' md:basis-[60%] basis-full'>
-        <p className='text-gray-300 p-4 text-center md:text-left'>
+        <p className='text-gray-300 p-4  '>
         Hello there! I'm subhankar maji, and i'm a full-stack web devoloper. I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success. I enjoyed every step of the design process, form discusssion and collaboration. 
         </p>
         <div className='flex mt-4'>
-          <ul className='flex flex-row gap-10 m-0 p-0 list-none'>
+          <ul className='flex flex-row gap-10 m-0 p-4 list-none'>
             {tabs.map((tabsitem,ind) => {
                 return(
                   <li className='p-'><button onClick={() => changeData(ind)} className={activetabs === ind ? ' px-2 py-1 rounded-sm text-white bg-green-500 hover:bg-[#44a176] font-[500]': "font-[500] px-2 py-1 bg-gray-200 text-black rounded-sm"}>{tabsitem.title}</button></li>
