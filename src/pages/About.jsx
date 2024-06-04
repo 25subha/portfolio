@@ -10,8 +10,8 @@ const About = () => {
     setActivecontent(tabs[ind])
   }
   return (
-    <div  name='About' className=' max-w-screen-2xl container mx-auto px-4 md:px-20  ' >
-      <div   className='flex flex-col items-center '>
+    <div  name='About' className='w-full  mx-auto px-4 md:px-20  ' >
+      <div   className='flex flex-col items-center w-full'>
       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>About Me</h1>
       <div className='h-1 w-24 bg-green-500'></div>
     </div>

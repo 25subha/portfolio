@@ -32,15 +32,16 @@ const Navbar = () => {
 
   let [open, setOpen] = useState(false);
   return (
-    <nav className='shadow-md max-w-screen-2xl container fixed top-0 left-0 z-20	'>
-      <div className='md:flex bg-[#11293d] items-center justify-between  py-4 md:px-20 px-7'>
+    <div className='w-full'>
+      <nav className=' w-full  fixed top-0 left-0 z-20	'>
+      <div className='md:flex bg-[#11293d] items-center justify-between  py-4 md:px-20 px-4'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[poppins] '>
-        <Link to='Home' smooth="true" duration="500" >
-        <h1 className='md:text-4xl text-3xl	text-green-500 cursor-pointer p-1 font-[signature] hover:text-[#6ce6fc] transition duration-500 '>S<span className='hover:text-[#59dd9b] transition duration-500 md:text-2xl	text-xl text-[aqua]	'>ubhankar</span></h1> 
-        </Link>
+          <Link to='Home' smooth="true" duration="500" >
+          <h1 className='md:text-4xl text-3xl	text-green-500 cursor-pointer p-1 font-[signature] hover:text-[#6ce6fc] transition duration-500 '>S<span className='hover:text-[#59dd9b] transition duration-500 md:text-2xl	text-xl text-[aqua]	'>ubhankar</span></h1> 
+          </Link>
         </div>
         <div className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => {setOpen(!open)}}>
-        {open ? <IoMdClose size={24} /> : <IoMenu size={24} />}
+          {open ? <IoMdClose size={24} /> : <IoMenu size={24} />}
         </div>
         <div>
           <ul className={`md:flex md:items-center  md:pb-0 pb-12 absolute md:static md:bg-[#11293d] bg-[rgba(32,57,65,0.9)] md:z-auto z-[-1] w-full left-0 md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
@@ -61,6 +62,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
   )
 }
 

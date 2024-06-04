@@ -5,8 +5,8 @@ import subhankarone from '../../public/subha.png';
  
 const Home = () => {
   return (
-    <div name='Home' className='max-w-screen-2xl container  px-4 md:px-20 relative'>
-      <div className='py-[150px] flex   justify-between mb-[150px] '>
+    <div name='Home' className='w-full   px-4 md:px-20 relative'>
+      <div className='py-[150px] flex  justify-between mb-[150px] '>
         <div className=' absolute z-10 md:top-[220px] top-[190px]'>
           <h1 className='font-[500] md:text-[35px] text-[20px] '>Hello, <br /> I am <span className='text-green-600'>Subhankar</span> </h1>
           <h2 className='font[500] md:text-[25px]'>And, I am <span> </span>
