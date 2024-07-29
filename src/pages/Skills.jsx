@@ -65,6 +65,7 @@ const Skills = () => {
         <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>My skills</h1>
         <div className='h-1 w-20 bg-green-400 '></div>
       </div>
+    <div className='flex flex-col justify-center items-center'>
     <div className='grid grid-cols-2 md:grid-cols-5 md:gap-x-20 my-3 w-full '>
       {
         cardItem.map(({id,logo,name})=> {
@@ -77,6 +78,7 @@ const Skills = () => {
         })
       }
      
+    </div>
     </div>
    </div>
   );

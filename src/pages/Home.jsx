@@ -24,8 +24,10 @@ const Home = () => {
           />
           </h2>
         </div>
-        <div className='md:basis-[30%] absolute right-4 md:right-20'>
+        <div className='md:basis-[30%] absolute right-4 md:right-20 '>
+          <div className=' md:h-[250px] md:w-[250px] h-[150px] w-[150px] overflow-hidden rounded-full'>
             <img src={subhankarone} alt="subhankar img" className=' md:h-[250px] md:w-[250px] h-[150px] w-[150px] rounded-full md:bg-cover transition-transform duration-2.5s] hover:transform hover:scale-[1.1] ' />
+          </div>
         </div>
       </div>
       

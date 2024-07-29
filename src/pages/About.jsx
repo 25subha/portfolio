@@ -15,10 +15,12 @@ const About = () => {
       <h1 className='font-[500] text-[30px] text-center mt-12 mb-2'>About Me</h1>
       <div className='h-1 w-24 bg-green-500'></div>
     </div>
-      <div className=' flex mt-12 justify-between md:items-start  items-center flex-wrap '>
+      <div className=' md:flex mt-12 justify-between md:items-start  items-center flex-wrap '>
         
-      <div className='md:basis-[20%] basis-full p-4 '>
-        <img src={subhankar} className='h-[290px] w-[260px] md:h-[250px] md:w-[210px]   m-auto rounded-md block  transition-transform duration-[0.5s] hover:transform hover:scale-[1.05] ' alt="" />
+      <div className='md:basis-[20%] basis-full p-4 justify-center  flex items-center'>
+       <div className='h-[280px] w-[240px] md:h-[245px] md:w-[205px] overflow-hidden rounded-md '>
+       <img src={subhankar} className='h-[290px] w-[245px] md:h-[250px] md:w-[210px]   m-auto rounded-md block  transition-transform duration-[0.5s] hover:transform hover:scale-[1.05] ' alt="" />
+       </div>
       </div>
       <div className=' md:basis-[70%] basis-full'>
         <p className='text-gray-300 p-4  '>
