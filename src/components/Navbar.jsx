@@ -48,11 +48,11 @@ const Navbar = () => {
       <div className={`md:hidden absolute right-4 -top-8 transition-all duration-200 ${open ? "rotate-90" : "rotate-0"}`} onClick={() => {setOpen(!open)}}>
           {open ? <IoMdClose size={24} /> : <IoMenu size={24} />}
         </div>
-        <ul className={`md:flex gap-8 md:static py-4 md:py-0 list-none absolute transition-all duration-500 top-[10px] items-center bg-gray-400 h-screen w-[60%] md:w-full  md:h-0 ${open ? "left-0" : "-left-full"}`}>
+        <ul className={`md:flex gap-8 md:static py-4 md:py-0 list-none absolute transition-all duration-500 top-[10px] items-center bg-gray-400 h-screen w-[80%] md:w-full  md:h-0 ${open ? "-left-4" : "-left-full"}`}>
           {
             navItems.map((item, index) => {
               return(
-                <li className='my-6 md:my-0 cursor-pointer hover:text-green-500 '  key={index}><Link to={item.page} smooth={true} offset={-70} activeClass='active' duration={500} onClick={closeNavber}>{item.page}</Link> </li>
+                <li className='my-6 md:my-0 pl-6 md:pl-0 cursor-pointer hover:text-green-500 '  key={index}><Link to={item.page} smooth={true} offset={-70} activeClass='active' duration={500} onClick={closeNavber}>{item.page}</Link> </li>
               )
             } )
           }
